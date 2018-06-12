@@ -53,11 +53,14 @@
 	}
 	.workMainImg {
 		/*width: 100vw;*/
-		height: 55vw;
+		height: 60vw;
 	} 
 	.workMainImg img {
 		width: 100%;
 		transition: 1s 1s width ease;
+	}
+	#popUp {
+		width: 100%;
 	}
 	.popImg img {
 		width: 100%;
@@ -223,9 +226,6 @@
 	}
 	.workTitle {
 		max-width: 24vw;
-	}
-	.cover {
-		/*max-height: 202px;*/
 	}
 }
 body {

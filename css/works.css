@@ -62,7 +62,7 @@
 	font-weight: 400;
 }
 #popUp {
-	width: auto;
+	/*width: auto;*/
 	/*margin: 0 auto;*/
 	position: fixed;
 	z-index: 3;
