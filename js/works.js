@@ -59,8 +59,24 @@ $(document).ready(function(){
 		$('.mask').hide();
 	})
 	$('.workArea').click(function(e) {
-		e.stopPropagation();
-		$('.mask').show();
+        e.stopPropagation();
+        
+        var key = this.getAttribute('id')
+
+        
+
+        //加入Item
+        var popUpImgs = document.getElementById('popUpImgs');
+
+        popUpImgs = localStorage.getItem(key)
+        
+        console.log(JSON.parse(popUpImgs))
+
+        
+
+        $('.mask').show();
+        
+
 		$('.popUp').show();
 	});
 

@@ -35,15 +35,9 @@ fetch(url).then(response => {
         h2.innerHTML = Item.des
     
 
-        var contentImgs = item.contentImgs
-        
-        // for(var j=0;j<contentImgs.length;j++){
-
-        //     var imgurl =""
-        //     var itemId = ""
-          
-
-        // }
+        var contentImgs = Item.contentImgs
+        localStorage.setItem(Item.id,JSON.stringify(contentImgs))
+ 
         mainImg.appendChild(img)
         title.appendChild(h2)
 
