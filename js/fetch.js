@@ -1,39 +1,59 @@
 const url = "http://172.20.10.10:8000/items.json"
 
-fetch(url,{
-    mode:'no-cors'
-}).then(response => {
+fetch(url).then(response => {
     if (response.status === 200) {
         return response.json();
     }
   }).then(json =>{
       var items = json.items
+      console.log(items)
+
+      var content = document.getElementById('works-content');
+
+      
+
       for (var i =0;i<items.length;i++){
+        var item = document.createElement('div')
+        item.setAttribute('class','box workArea')
+  
+      
+        var mainImg = document.createElement('div')
+        mainImg.setAttribute('class','workMainImg')
+      
+        var img = document.createElement('img')
+  
+        var title = document.createElement('div')
+        title.setAttribute('class','workTitle')
+      
+        var h2 = document.createElement('h2')
         console.log(items[i]);
-        var item = items[i]
+        var Item = items[i]
+        item.setAttribute('id',Item.id)
+
+        img.setAttribute('src',Item.coverImg)
+
+        h2.innerHTML = Item.des
+    
+
         var contentImgs = item.contentImgs
-        for(var j=0;j<item.contentImgs.length;j++){
-            contentImgs.pushitem
-            var imgurl =""
-            var itemId = ""
+        
+        // for(var j=0;j<contentImgs.length;j++){
+
+        //     var imgurl =""
+        //     var itemId = ""
           
-            var content = document.getElementById('works-content');
-            var item = document.createElement('div')
-            item.setAttribute('class','box workArea')
-            item.setAttribute('id',itemId)
-          
-            var mainImg = document.createElement('div')
-            item.setAttribute('class','workMainImg')
-          
-            var img = document.createElement('img')
-            img.setAttribute('src',imgurl)
-          
-            var title = document.createElement('div')
-            title.setAttribute('class','workTitle')
-          
-            var h2 = document.createElement('h2')
-        }
+
+        // }
+        mainImg.appendChild(img)
+        title.appendChild(h2)
+
+
+        item.appendChild(mainImg)
+        item.appendChild(title)
+
+        content.appendChild(item)
       }
+      console.log(content)
   }).catch(err =>{
       console.log(err)
   })
