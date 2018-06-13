@@ -1,4 +1,4 @@
-const url = "http://172.20.10.10:8000/items.json"
+const url = "http://192.168.1.101:8000/items.json"
 
 fetch(url).then(response => {
     if (response.status === 200) {
