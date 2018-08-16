@@ -43,11 +43,6 @@
 	flex-wrap: nowrap;
 	margin-bottom: 20px;
 	cursor: pointer;
-	/*font-size: 22px;*/
-}
-.workMainImg {
-	/*width: auto;
-	height: 90%;*/
 }
 .workMainImg img {
 	height: 100%;
@@ -57,13 +52,11 @@
 	width: 100%;
 	text-align: left;
 	margin: 0;
-	/*margin-top: 5px*/
+	color: #000;
 	font-size: 18px;
 	font-weight: 400;
 }
 #popUp {
-	/*width: auto;*/
-	/*margin: 0 auto;*/
 	position: fixed;
 	z-index: 3;
 	left: 50%;
@@ -86,6 +79,19 @@
 }
 .popImg img {
 	margin: 0 auto;
+}
+.popInfo {
+	color: white;
+	line-height: 10px;
+	font-size: 12px;
+	margin-left: 20px;
+	margin-top: 10px;
+	position: absolute;
+    bottom: -20px;
+    left: 30px;
+}
+.popInfo span p {
+	display: inline;
 }
 .mask {
 	position: fixed;
