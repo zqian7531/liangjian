@@ -66,11 +66,29 @@ $(document).ready(function(){
         
 
         //加入Item
-        var popUpImgs = document.getElementById('popUpImgs');
-
-        popUpImgs = localStorage.getItem(key)
         
-        console.log(JSON.parse(popUpImgs))
+
+        var popUpImgs = JSON.parse(localStorage.getItem(key))
+        
+        var item = document.createElement('div')
+        item.setAttribute('id','popUpImgs')
+        item.setAttribute('class','popImg')
+
+        for (var i =0;i<popUpImgs.length;i++){
+            var img = document.createElement('img')
+            img.setAttribute('src',popUpImgs[i])
+            img.setAttribute('class','mySlides')
+            if (i==0) {img.setAttribute('style','display:block')}
+            else {
+                img.setAttribute('style','display:none') 
+            }
+            item.appendChild(img);
+
+        }
+        var popUpImgDiv = document.getElementById('popUpImgs');
+
+        var parentDiv = popUpImgDiv.parentNode;
+        parentDiv.replaceChild(item,popUpImgDiv)
 
         
 
