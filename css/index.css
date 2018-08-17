@@ -1,0 +1,18 @@
+.background {
+    /* The image used */
+    background-image: url("../images/bg1.jpg");
+    position: sticky;
+    /* Full height */
+    height: 100vh;
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    top:0;
+    left: 0;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
