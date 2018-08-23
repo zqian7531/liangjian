@@ -1,4 +1,4 @@
-const url = "http://192.168.1.101:8000/items.json"
+const url = "https://liangjian.co/items.json"
 
 fetch(url).then(response => {
     if (response.status === 200) {
@@ -10,21 +10,23 @@ fetch(url).then(response => {
 
       var content = document.getElementById('works-content');
 
-      
+
 
       for (var i =0;i<items.length;i++){
         var item = document.createElement('div')
         item.setAttribute('class','box workArea')
-  
-      
+
+
+
+
         var mainImg = document.createElement('div')
         mainImg.setAttribute('class','workMainImg')
-      
+
         var img = document.createElement('img')
-  
+
         var title = document.createElement('div')
         title.setAttribute('class','workTitle')
-      
+
         var h2 = document.createElement('h2')
         console.log(items[i]);
         var Item = items[i]
@@ -33,13 +35,15 @@ fetch(url).then(response => {
         img.setAttribute('src',Item.coverImg)
 
         h2.innerHTML = Item.des
-    
 
-        var contentImgs = Item.contentImgs
-        localStorage.setItem(Item.id,JSON.stringify(contentImgs))
- 
+
+        var popUp = Item.popUp
+        localStorage.setItem(Item.id,JSON.stringify(popUp))
+
         mainImg.appendChild(img)
         title.appendChild(h2)
+
+
 
 
         item.appendChild(mainImg)
@@ -51,6 +55,3 @@ fetch(url).then(response => {
   }).catch(err =>{
       console.log(err)
   })
-
-
-  

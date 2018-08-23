@@ -66,17 +66,17 @@ $(document).ready(function(){
 
 
         //加入Item
-        
 
-        var popUpImgs = JSON.parse(localStorage.getItem(key))
+
+        var popUp = JSON.parse(localStorage.getItem(key))
 
         var item = document.createElement('div')
         item.setAttribute('id','popUpImgs')
         item.setAttribute('class','popImg')
 
-        for (var i =0;i<popUpImgs.length;i++){
+        for (var i =0;i<popUp.contentImgs.length;i++){
             var img = document.createElement('img')
-            img.setAttribute('src',popUpImgs[i])
+            img.setAttribute('src',popUp.contentImgs[i])
             img.setAttribute('class','mySlides')
             if (i==0) {img.setAttribute('style','display:block')}
             else {
@@ -86,6 +86,11 @@ $(document).ready(function(){
 
         }
         var popUpImgDiv = document.getElementById('popUpImgs');
+
+				var EN = document.getElementById('name_EN');
+				EN.innerHTML="<p>"+popUp.info.EN+"</p>";
+				var ZH = document.getElementById('name_ZH-CN');
+				ZH.innerHTML="<p>"+popUp.info.ZH+"</p>";
 
         var parentDiv = popUpImgDiv.parentNode;
         parentDiv.replaceChild(item,popUpImgDiv)
