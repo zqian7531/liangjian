@@ -1,0 +1,47 @@
+{
+  "items":[
+    {
+      "id":"1001",
+      "des":"Boo plus",
+      "coverImg":"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/1.jpg",
+      "popUp":{
+      "contentImgs":[
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/1.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/2.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/3.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/4.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/6.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/7.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/8.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/9.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/12.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/13.jpg"
+      ],
+      "info":{
+        "EN":"Boo plus",
+        "ZH":"Boo plus 服装店"
+      }
+      }
+    },
+    {
+      "id":"1002",
+      "des":"2 JO摄影工作室",
+      "coverImg":"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/234234.jpg",
+      "popUp":{
+      "contentImgs":[
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/234234.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/DSC04727.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/DSC04736.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/DSC04748.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/DSC04763.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/DSC04771.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/DSC04792.jpg"
+      ],
+      "info":{
+        "EN":"2 JO",
+        "ZH":"2 JO摄影工作室"
+      }
+      }
+    }
+  ]
+}
