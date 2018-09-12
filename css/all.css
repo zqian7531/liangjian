@@ -95,9 +95,10 @@
 		flex-wrap: nowrap;
 	}
 	.contact-container {
-		position: relative;
+    	width: 720px;
+    	margin: 0 auto;
+    	position: relative;
     	left: 12px;
-		
 	}
 	.footer {
 		width: 750px;
@@ -133,7 +134,12 @@
 		width: 95%;
 	}
 }
-
+@media only screen and (min-width: 826px) {
+	.contact-container {
+	    left: 0;
+	    transition: 1s 0s left ease;
+	}
+}
 @media only screen and (min-width: 992px) {
 	.panel {
 		width: 100%;
@@ -143,7 +149,7 @@
  		width: 910px;
  	}
  	.contact-container {
- 		/*width: 900px*/
+ 		width: 1150px;
 		position: relative;
     	left: 60px;
     	transition: 1s 0s left ease;
