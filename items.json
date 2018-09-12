@@ -57,7 +57,7 @@
       ],
       "info":{
         "EN":"Molly's Kitchen",
-        "ZH":"茉莉的氧气厨房 烘焙教室"
+        "ZH":"茉莉的氧气厨房烘焙工坊"
       }
       }
     },
@@ -78,7 +78,7 @@
       ],
       "info":{
         "EN":"Ranshan Store",
-        "ZH":"染尚 服装店"
+        "ZH":"染尚服装店"
       }
       }
     },
@@ -100,7 +100,7 @@
       ],
       "info":{
         "EN":"Bench Technology",
-        "ZH":"板凳科技 工作室"
+        "ZH":"板凳科技办公空间"
       }
       }
     },
@@ -121,7 +121,7 @@
       ],
       "info":{
         "EN":"Lafoppa Store",
-        "ZH":"百豪Lafoppa 时装展厅"
+        "ZH":"Lafoppa 服装店"
       }
       }
     },
@@ -141,7 +141,7 @@
       ],
       "info":{
         "EN":"Yinshu Japanese Hotel",
-        "ZH":"隐宿 日式民宿"
+        "ZH":"Yinshu 日式酒店"
       }
       }
     },
@@ -162,7 +162,7 @@
       ],
       "info":{
         "EN":"No.2 Fashion Studio",
-        "ZH":"第2元素 服装工作室"
+        "ZH":"No.2 服装工作室"
       }
       }
     },
@@ -195,13 +195,13 @@
       ],
       "info":{
         "EN":"Lins's Cake",
-        "ZH":"Lins's cake 烘焙教室"
+        "ZH":"Lins's cake 蛋糕烘焙工坊"
       }
       }
     },
     {
       "id":"1011",
-      "des":"Lins's Cake",
+      "des":"Dahua UK Showroom",
       "coverImg":"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/dahua/3.jpg",
       "popUp":{
       "contentImgs":[
@@ -230,7 +230,7 @@
       ],
       "info":{
         "EN":"Jintumen Grill",
-        "ZH":"金图门烧烤 转塘店"
+        "ZH":"金图门烤肉"
       }
       }
     },
@@ -247,7 +247,7 @@
       ],
       "info":{
         "EN":"Bechili",
-        "ZH":"标签冷锅串串 宝龙城店"
+        "ZH":"标签冷锅串串"
       }
       }
     },
@@ -263,14 +263,14 @@
         ],
       "info":{
         "EN":"Shannei Decorated Office",
-        "ZH":"山内装饰公司 办公室"
+        "ZH":"山内装饰办公空间"
       }
       }
     },
     {
       "id":"1015",
       "des":"LEON ENGLISH FOR KIDS",
-      "coverImg":"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/leon/1.jpg",
+      "coverImg":"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/leon/3.jpg",
       "popUp":{
       "contentImgs":[
         "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/leon/1.jpg",
@@ -281,16 +281,17 @@
         "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/leon/6.jpg",
         "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/leon/7.jpg",
         "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/leon/8.jpg",
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/leon/9.jpg"
         ],
       "info":{
         "EN":"LEON ENGLISH FOR KIDS",
-        "ZH":"励恩英语教育中心"
+        "ZH":"励恩儿童英语机构"
       }
       }
     },
     {
       "id":"1016",
-      "des":"MR HUANG'HOME",
+      "des":"Mr Huang's Home",
       "coverImg":"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/mr/_DSC0103_4_5_Balancer.jpg",
       "popUp":{
       "contentImgs":[
@@ -305,14 +306,14 @@
 		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/mr/_DSC0131_2_3_Balancer.jpg"
         ],
       "info":{
-        "EN":"MR HUANG'HOME",
-        "ZH":"黄先生家"
+        "EN":"Mr Huang's Home",
+        "ZH":"黄先生住宅"
       }
       }
     },
     {
       "id":"1017",
-      "des":"Right nail in Bin Jiang",
+      "des":"Right nail",
       "coverImg":"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/right/6.jpg",
       "popUp":{
       "contentImgs":[
@@ -326,14 +327,14 @@
 		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/right/8.jpg"
         ],
       "info":{
-        "EN":"Right nail in Bin Jiang",
-        "ZH":"Right Nail美甲店"
+        "EN":"Right nail",
+        "ZH":"Right nail美甲美睫店"
       }
       }
     },
     {
       "id":"1018",
-      "des":"Bonnie in Hang Zhou",
+      "des":"Bonnie",
       "coverImg":"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/bonnie/6.jpg",
       "popUp":{
       "contentImgs":[
@@ -347,8 +348,52 @@
 		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/right/8.jpg"
         ],
       "info":{
-        "EN":"Right nail in Bin Jiang",
+        "EN":"Bonnie",
         "ZH":"伯尼婚礼策划机构"
+      }
+      }
+    },
+    {
+      "id":"1019",
+      "des":"ART MEME",
+      "coverImg":"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/art/3.jpg",
+      "popUp":{
+      "contentImgs":[
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/art/1.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/art/2.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/art/3.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/art/4.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/art/5.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/art/6.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/art/7.jpg"
+        ],
+      "info":{
+        "EN":"ART MEME",
+        "ZH":"美感细胞儿童美术培训"
+      }
+      }
+    },
+    {
+      "id":"1020",
+      "des":"Dear showroom",
+      "coverImg":"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/dear/3.jpg",
+      "popUp":{
+      "contentImgs":[
+        "https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/dear/1.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/dear/2.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/dear/3.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/dear/4.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/dear/5.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/dear/6.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/dear/7.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/dear/8.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/dear/9.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/dear/10.jpg",
+		"https://liangjian-design.oss-cn-hangzhou.aliyuncs.com/projects/dear/11.jpg"
+        ],
+      "info":{
+        "EN":"Dear showroom",
+        "ZH":"蝶尔喜铺"
       }
       }
     }
